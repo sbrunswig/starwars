@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-// Data
+// Database of characters
 const characters = [
   {
     routeName: 'yoda',
